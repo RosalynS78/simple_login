@@ -170,6 +170,7 @@ export default function Login() {
                     fullWidth
                     startIcon={<LoginIcon />}
                     onClick={handleSubmit}
+                    color="warning"
                 >
                     LOGIN
                 </Button>

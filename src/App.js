@@ -31,7 +31,7 @@ function App() {
               icon={<LockIcon />}
               label="Log In"
               variant="outlined"
-              color="info"
+              color="warning"
 
             />
           ) : (
@@ -48,6 +48,7 @@ function App() {
             checked={checked}
             onChange={handleChange}
             inputProps={{ "aria-label": "controlled" }}
+            color="warning"
           />
         </div>
 
