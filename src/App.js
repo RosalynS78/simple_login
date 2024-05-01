@@ -12,6 +12,9 @@ import Paper from "@mui/material/Paper";
 import LockIcon from "@mui/icons-material/Lock";
 
 function App() {
+
+
+
   const [checked, setChecked] = useState(true);
 
   const handleChange = (e) => {
@@ -19,6 +22,7 @@ function App() {
   };
 
   return (
+
     <div className="App">
       <Paper elevation={3} style={{ padding: "10px", paddingBottom: "50px" }}>
         <div align="center">
@@ -28,14 +32,15 @@ function App() {
               label="Log In"
               variant="outlined"
               color="info"
+
             />
           ) : (
-            <Chip 
-              icon={<FaceIcon />}  
+            <Chip
+              icon={<FaceIcon />}
               label="Sign Up"
               variant="outlined"
-              color="info"
-            />  
+              color="secondary"
+            />
           )}
           <br />
 

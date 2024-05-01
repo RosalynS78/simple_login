@@ -197,6 +197,7 @@ export default function Login() {
                     fullWidth
                     startIcon={<LoginIcon />}
                     onClick={handleSubmit}
+                    color="secondary"
                 >
                     SIGNUP
                 </Button>
